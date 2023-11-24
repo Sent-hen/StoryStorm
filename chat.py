@@ -9,10 +9,12 @@ from langchain import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.llms import OpenAI
 
-load_dotenv()
+#load_dotenv()
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
-eleven_api_key = os.getenv("ELEVEN_API_KEY")
+#openai_api_key = os.getenv("OPENAI_API_KEY")
+#eleven_api_key = os.getenv("ELEVEN_API_KEY")
+openai_api_key = "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"
+eleven_api_key = "3ddcac8ec318d5ea90062a2ec39e0833"
 
 llm = OpenAI(temperature=0.9)
 
